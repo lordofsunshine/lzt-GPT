@@ -233,7 +233,7 @@ def process_question(thread_id):
                 logger.info(f'Тема {thread_id} содержит фото или видео. Пропускаем.')
                 return
             
-            is_mention = bool(re.search(r'<a href="https://zelenka\.guru/members/5845083/" class="username" data-user="5845083, planetus"><span class="style11">planetus</span></a>', thread_text))
+            is_mention = bool(re.search(r'<a href="https://zelenka\.guru/members/5845084/" class="username" data-user="5845084, hove"><span class="style11">hove</span></a>', thread_text))
             
             text_lolz = f'{thread_title} {thread_text}'
             logger.info(f'Заголовок темы: {thread_title} от {create_username}')
