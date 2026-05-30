@@ -46,10 +46,12 @@ def expand_vocabulary(text):
 def add_conversational_particles(text):
     particles = ['ну', 'вот', 'типа', 'короче', 'как бы', 'в общем', 'слушай', 'знаешь']
     words = text.split()
-    for i in range(len(words)):
+    result = []
+    for word in words:
         if random.random() < config["particle_probability"]:
-            words.insert(i, random.choice(particles))
-    return ' '.join(words)
+            result.append(random.choice(particles))
+        result.append(word)
+    return ' '.join(result)
 
 def remove_markdown(text):
     text = re.sub(r'\*\*(.*?)\*\*', r'\1', text)

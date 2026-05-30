@@ -1,6 +1,5 @@
 # Возможности скрипта для форума zelenka.guru
 
-<img src="https://cdn.glitch.global/86ea1f30-b0c2-4c99-97ce-2c6c1c4d5005/preview.jpg?v=1734264702895" alt="Preview" width="auto" height="auto">
 <hr>
 
 ## 💨 Основные функции

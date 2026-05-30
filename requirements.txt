@@ -1,3 +1,4 @@
 requests==2.32.3
 loguru==0.7.2
-g4f==0.3.3.4
+g4f==7.5.6
+python-dotenv>=1.0.0
